@@ -6,7 +6,7 @@ import javax.swing.*;
  *
  * @author John Boogaard
  */
-public class StorageAdminUI extends javax.swing.JFrame {
+public class StorageAdminUI extends JFrame {
     private JLabel labelLowStock;
     
     public StorageAdminUI() {
@@ -14,6 +14,14 @@ public class StorageAdminUI extends javax.swing.JFrame {
     }
     
     private void setupFrame() {
-    setTitle("Member administration");
+        
+        JFrame frame = new StorageAdminUI();
+        
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setTitle("Magazijnbeheer");
+        frame.setContentPane(rootPane);
+        frame.setVisible(true);
+        frame.pack();
+        
 }
 }
