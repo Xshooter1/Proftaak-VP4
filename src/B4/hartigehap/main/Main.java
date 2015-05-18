@@ -3,13 +3,13 @@
 **                            Student Avans Breda                             **
 \******************************************************************************/
 
-package proftaak.vp4;
+package B4.hartigehap.main;
 
 /**
  *
  * @author Dominique Rietveld
  */
-public class ProftaakVP4 {
+public class Main {
 
     /**
      * @param args the command line arguments
